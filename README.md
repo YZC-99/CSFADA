@@ -1,16 +1,16 @@
 # Continual Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals
 This repository contains the official implementation of our paper. 
 
-# 1. Training source models in a labeled source domain dataset.
+## 1. Training source models in a labeled source domain dataset.
 
-# 2. Training target models in a unlabeled target domain dataset by using the $\mathcal{L}_{\text{CCL}}$.
+## 2. Training target models in a unlabeled target domain dataset by using the $\mathcal{L}_{\text{CCL}}$.
 The implementation details of the $\mathcal{L}_{\text{CCL}}$ can be found in the `cc_loss.py` file.
 
-# 3. Select Active Samples by using the proposed method.
+## 3. Select Active Samples by using the proposed method.
 The implementation details of the proposed method can be found in the `active_sample_selection.py` file.
 Code will be released soon.
 
-# 4. Fine-tuning the target model with the selected active samples.
+## 4. Fine-tuning the target model with the selected active samples.
 The $\mathcal{L}_{\text{CCNTD}}$ can be used to mitigate the catastrophic forgetting problem.
 The implementation details of the $\mathcal{L}_{\text{CCNTD}}$ can be found in the `ccntd_loss.py` file.
 
