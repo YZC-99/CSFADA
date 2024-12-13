@@ -9,4 +9,4 @@ In our experiments, for each center, the dataset is divided into training, valid
 
 # Comparison with Other Methods 📈
 
-We acknowledge the developers of the comparative methods in **ADA4MIA** [ADA4MIA](https://github.com/whq-xxh/ADA4MIA) and [STDR](https://github.com/whq-xxh/Active-GTV-Seg) .
+We acknowledge the developers of the comparative methods in [ADA4MIA](https://github.com/whq-xxh/ADA4MIA) and [STDR](https://github.com/whq-xxh/Active-GTV-Seg) .
