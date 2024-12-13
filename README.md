@@ -7,9 +7,12 @@ This repository contains the official implementation of our paper.
 The implementation details of the $\mathcal{L}_{\text{CCL}}$ can be found in the `cc_loss.py` file.
 
 # 3. Select Active Samples by using the proposed method.
+The implementation details of the proposed method can be found in the `active_sample_selection.py` file.
+Code will be released soon.
 
 # 4. Fine-tuning the target model with the selected active samples.
 The $\mathcal{L}_{\text{CCNTD}}$ can be used to mitigate the catastrophic forgetting problem.
+The implementation details of the $\mathcal{L}_{\text{CCNTD}}$ can be found in the `ccntd_loss.py` file.
 
 # Dataset 📊
 We use the multi-center NPC T1-weighted MRI dataset released by [here](https://ieeexplore.ieee.org/abstract/document/10553522). This dataset is the first publicly available multi-center GTV segmentation dataset for research purposes, focusing on patients diagnosed with NPC. The dataset contains annotated GTV data obtained from three different medical institutions (CenterA, CenterB, and CenterC). 
