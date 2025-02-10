@@ -7,8 +7,7 @@ This repository contains the official implementation of our paper.
 The implementation details of the $\mathcal{L}_{\text{CCL}}$ can be found in the `ccl_loss.py` file.
 
 ## 3. Select Active Samples by using the proposed method.
-The implementation details of the proposed method can be found in the `active_sample_selection.py` file.
-Code will be released soon.
+The implementation details of the proposed method can be found in the `select_sample.py` file.
 
 ## 4. Fine-tuning the target model with the selected active samples.
 The implementation details of the $\mathcal{L}_{\text{CCNTD}}$ can be found in the `ccntd_loss.py` file.
